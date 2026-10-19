@@ -11,4 +11,3 @@ for y in range(height):
         else:
             line += "  "
     print(line)
-
