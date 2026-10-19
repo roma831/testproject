@@ -12,4 +12,3 @@ for i in range(5):
         print("\033[1;1H")
         print(frame)
         time.sleep(0.3)
-

@@ -14,4 +14,3 @@ for i in range(height):
 
 for i in range(height):
     print(blue + " " * width + reset)
-
