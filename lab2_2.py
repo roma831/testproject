@@ -20,7 +20,7 @@ def get_downloads(row):
     return int(row[5])
 
 
-def show_popular_books(table):
+def popular_books(table):
     popular = sorted(table, key=get_downloads, reverse=True)
     print('\n20 самых популярных книг:')
     for number, row in enumerate(popular[:20], start=1):
@@ -29,6 +29,6 @@ def show_popular_books(table):
 
 table = open_table()
 show_publishers(table)
-show_popular_books(table)
+popular_books(table)
 
 
